@@ -1,0 +1,32 @@
+{
+    "name": "maciel/escola",
+    "description": "sistema de Login em PHP",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [{
+        "name": "maciel",
+        "email": "elitymaciel@hotmail.com",
+        "role": "Developer",
+        "homepage": "http://www.pcep.com.br"
+    }],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/",
+            "App\\": "App/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "ext-json": "*",
+        "phpmailer/phpmailer": "6.0.*",
+        "coffeecode/datalayer": "1.1.*",
+        "coffeecode/router": "1.0.*",
+        "league/plates": "v4.0.0-alpha"
+    }
+
+}
