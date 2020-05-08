@@ -27,7 +27,6 @@ class User extends Controller
                     $usuario->last_name = $data['sobrenome'];
                     $usuario->email =  $data['email'];
                     $usuario->password = password_hash($data['password'], PASSWORD_BCRYPT);
-                    //$usuario->avatar = $data[''];
                     $usuario->grupo = $data['grupo']; 
                     $usuario->created_at = date("Y-m-d h:m:s");
                     $usuario->updated_at =  date("Y-m-d h:m:s");
