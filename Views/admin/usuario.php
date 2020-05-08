@@ -1,4 +1,4 @@
-<?php $v->layout("_theme")?>
+<?php $v->layout("_theme")?> 
 
 <!-- Content Header (Page header) -->
 <div class="content-header">
@@ -61,13 +61,10 @@
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <label>Grupo:</label>
-                                        <select name="funcionario"
-                                            class="form-control select2bs4 select2-hidden-accessible"
-                                            style="width: 100%;" data-select2-id="17" tabindex="-1"
-                                            aria-hidden="true">
-                                            <?php foreach ($func as $key => $value): ?>
-                                            <option value="<?= $value->id ?>">
-                                                <?php print_r(ucfirst($value->nome));?>
+                                        <select name="grupo" class="form-control select2bs4 select2-hidden-accessible" style="width: 100%;" data-select2-id="17" tabindex="-1" aria-hidden="true">
+                                            <?php foreach($grupo as  $value): ?>
+                                            <option value="<?php print_r($value->data()->id) ?>">
+                                                <?php print_r( $value->data()->nome);?>
                                             </option>
                                             <?php endforeach ?>
                                         </select>
@@ -76,7 +73,7 @@
                             </div>
                         </div>
                         <div class="card-footer">
-                            <button type="submit" name="salvar" class="btn btn-info">Salvar</button>
+                            <button type="submit" name="salvarUsuario" class="btn btn-info">Salvar</button>
                         </div>
                     </form>
                 </div>

@@ -24,7 +24,9 @@ $router->get("/", "Dashboard:home");
 
 $router->group("usuario");
 $router->get("/", "User:cadUsuario");
+$router->post("/", "User:cadUsuario");
 $router->get("/{grupo}", "User:cadGrupo");
+$router->post("/{grupo}", "User:cadGrupo");
 
 $router->group("oops");
 $router->get("/{error}", function($data){

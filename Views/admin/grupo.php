@@ -9,11 +9,11 @@
             </div>
 
             <div class="col-sm-6">
-            <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="<?= SITE['base_url']?>esc/usuarios"">Usuários</a></li>
-              <li class="breadcrumb-item active">Cadastro de Usuários</li>
-            </ol>
-          </div>
+                <ol class="breadcrumb float-sm-right">
+                <li class="breadcrumb-item"><a href="<?= SITE['base_url']?>esc/usuarios"">Usuários</a></li>
+                <li class="breadcrumb-item active">Cadastro de Usuários</li>
+                </ol>
+            </div>
         </div>
     </div>
 </div>
@@ -21,7 +21,7 @@
 <div class="content">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-6">
             <?php if (!empty($_SESSION['alert'])) {
                 echo $_SESSION['alert'];
             } ?>
@@ -46,6 +46,13 @@
                         </div>
                     </form>
                 </div>
+            </div>
+            <div class="col-md-6"> 
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Lista de Grupos</h3>
+                    </div>
+                    </div>
             </div>
         </div>
     </div>
