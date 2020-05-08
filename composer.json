@@ -14,11 +14,11 @@
     },
     "autoload": {
         "psr-4": {
-            "Source\\": "source/",
+            "Source\\": "Source/",
             "App\\": "App/"
         },
         "files": [
-            "source/Config.php"
+            "Source/Config.php"
         ]
     },
     "require": {
@@ -26,7 +26,8 @@
         "phpmailer/phpmailer": "6.0.*",
         "coffeecode/datalayer": "1.1.*",
         "coffeecode/router": "1.0.*",
-        "league/plates": "v4.0.0-alpha"
+        "league/plates": "v4.0.0-alpha",
+        "almasaeed2010/adminlte": "~3.0"
     }
 
 }
