@@ -1,6 +1,4 @@
 # SistemaLoginPHP
-
-[X] - Sistema Login
  
 [x] - ext-json : "*"
 [X] - phpmailer/phpmailer : "6.0.*"
