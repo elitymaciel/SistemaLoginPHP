@@ -9,8 +9,6 @@
 
 namespace App\Controllers;
 
-use App\Controllers\Controller;
-
 class Dashboard extends Controller
 {
     public function home($data)
