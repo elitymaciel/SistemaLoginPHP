@@ -186,7 +186,7 @@
         <footer class="main-footer">
             <!-- To the right -->
             <?php
-            if(!is_array($_SESSION)):
+            if($_SESSION['logado']):
             ?>
             <div class="float-right d-none d-sm-inline">
              Usuário: <b><?= ucfirst($_SESSION['nome'])?></b>

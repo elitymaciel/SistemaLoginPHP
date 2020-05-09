@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Tempo de geração: 08/05/2020 às 11:37
+-- Tempo de geração: 09/05/2020 às 20:28
 -- Versão do servidor: 5.7.30-0ubuntu0.18.04.1
 -- Versão do PHP: 7.2.30-1+ubuntu18.04.1+deb.sury.org+1
 
@@ -31,8 +31,6 @@ CREATE TABLE `grupo` (
   `nome` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- --------------------------------------------------------
-
 --
 -- Estrutura para tabela `users`
 --
@@ -52,14 +50,15 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Índices de tabelas apagadas
+-- Fazendo dump de dados para tabela `users`
 --
 
+INSERT INTO `users` (`id`, `username`, `last_name`, `email`, `password`, `avatar`, `created_at`, `updated_at`, `grupo`, `reset_password`, `is_deleted`) VALUES
+(1, 'admin', 'teste', 'admin@admin.com', '$2y$10$GxzzBi7LaU7dG22aUvwgWezjMz2tA0qJlXzbMQ/Wz4fqdOv7ssoV6', 'default.jpg', '2020-05-09 23:20:21', '2020-05-09 23:20:21', 3, 0, 0);
+
 --
--- Índices de tabela `grupo`
+-- Índices de tabelas apagadas
 --
-ALTER TABLE `grupo`
-  ADD PRIMARY KEY (`id`);
 
 --
 -- Índices de tabela `users`
@@ -72,15 +71,10 @@ ALTER TABLE `users`
 --
 
 --
--- AUTO_INCREMENT de tabela `grupo`
---
-ALTER TABLE `grupo`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
---
 -- AUTO_INCREMENT de tabela `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=78;
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

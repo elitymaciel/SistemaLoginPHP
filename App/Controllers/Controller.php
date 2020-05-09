@@ -18,6 +18,10 @@ abstract class Controller
 
     public function __construct()
     {
+        if (empty($_SESSION['logado'])) {
+            $router = new Router(SITE["base_url"]);
+            $router->redirect("login");
+        }
         $this->view = Engine::create(__DIR__ . "/../../Views/admin/", "php");
         $this->templateError = Engine::create(__DIR__ ."/../../Views/error/", "php");
     }

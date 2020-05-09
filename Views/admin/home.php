@@ -71,3 +71,7 @@
 
       </div>
     </section>
+    <?php 
+      print("<pre>");
+      print_r($_SESSION)
+    ?>
