@@ -5,3 +5,9 @@
 [x] - coffeecode/datalayer : "1.1.*"
 [X] - coffeecode/router : "1.0.*"
 [X] - league/plates : "v4.0.0-alpha"
+
+## Authors
+
+* **Maciel Oliveira** - *Projeto Inicial* - [PurpleBooth](https://github.com/elitymaciel)
+
+See also the list of [contributors](https://github.com/elitymaciel/SistemaLoginPHP/contributors) who participated in this project.
