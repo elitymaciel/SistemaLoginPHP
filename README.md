@@ -8,6 +8,6 @@
 
 ## Authors
 
-* **Maciel Oliveira** - *Projeto Inicial* - [PurpleBooth](https://github.com/elitymaciel)
+* **Maciel Oliveira** - *Projeto Inicial* - [MacielOliveira](https://github.com/elitymaciel)
 
 See also the list of [contributors](https://github.com/elitymaciel/SistemaLoginPHP/contributors) who participated in this project.
