@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Tempo de geração: 09/05/2020 às 20:28
+-- Tempo de geração: 09/05/2020 às 21:44
 -- Versão do servidor: 5.7.30-0ubuntu0.18.04.1
 -- Versão do PHP: 7.2.30-1+ubuntu18.04.1+deb.sury.org+1
 
@@ -30,6 +30,15 @@ CREATE TABLE `grupo` (
   `id` int(11) UNSIGNED NOT NULL,
   `nome` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Fazendo dump de dados para tabela `grupo`
+--
+
+INSERT INTO `grupo` (`id`, `nome`) VALUES
+(1, 'Administrador');
+
+-- --------------------------------------------------------
 
 --
 -- Estrutura para tabela `users`
@@ -61,6 +70,12 @@ INSERT INTO `users` (`id`, `username`, `last_name`, `email`, `password`, `avatar
 --
 
 --
+-- Índices de tabela `grupo`
+--
+ALTER TABLE `grupo`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Índices de tabela `users`
 --
 ALTER TABLE `users`
@@ -70,6 +85,11 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT de tabelas apagadas
 --
 
+--
+-- AUTO_INCREMENT de tabela `grupo`
+--
+ALTER TABLE `grupo`
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT de tabela `users`
 --
