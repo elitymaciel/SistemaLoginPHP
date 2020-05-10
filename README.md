@@ -1,13 +1,32 @@
 # SistemaLoginPHP
  
-[x] - ext-json : "*"
-[X] - phpmailer/phpmailer : "6.0.*"
-[x] - coffeecode/datalayer : "1.1.*"
-[X] - coffeecode/router : "1.0.*"
-[X] - league/plates : "v4.0.0-alpha"
+ ### Instalação / Installing
 
-## Authors
+A instalação e feita de forma simples com php7.2 , git e composer instalado siga os passos abaixo.
+
+Baixando os arquivos 
+
+```
+git clone https://github.com/elitymaciel/SistemaLoginPHP.git 
+cd SistemaLoginPHP
+```
+Finalizando instalação com composer
+
+```
+composer update
+```
+
+End with an example of getting some data out of the system or using it for a little demo
+
+## Dependencias / Dependency
+
+* [phpmailer](https://github.com/PHPMailer/PHPMailer) - Dependency
+* [Datalayer](https://github.com/robsonvleite/datalayer) - Dependency Management
+* [Router](https://github.com/robsonvleite/router) - Dependency 
+* [plates](https://github.com/thephpleague/plates) - Dependency
+
+## Autores / Authors
 
 * **Maciel Oliveira** - *Projeto Inicial* - [MacielOliveira](https://github.com/elitymaciel)
 
-See also the list of [contributors](https://github.com/elitymaciel/SistemaLoginPHP/contributors) who participated in this project.
+Lista de contribuições [contributors](https://github.com/elitymaciel/SistemaLoginPHP/contributors) Participe do porjeto.
