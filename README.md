@@ -19,6 +19,7 @@ composer update
 ## Dependencias / Dependency
 
 * [phpmailer](https://github.com/PHPMailer/PHPMailer) - Dependency
+* [adminlte 3](https://github.com/ColorlibHQ/AdminLTE) - Dependency
 * [Datalayer](https://github.com/robsonvleite/datalayer) - Dependency Management
 * [Router](https://github.com/robsonvleite/router) - Dependency 
 * [plates](https://github.com/thephpleague/plates) - Dependency
