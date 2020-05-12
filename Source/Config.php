@@ -15,12 +15,12 @@ define("SITE", [
     "development" => "Maciel Oliveira"
 ]);
 define("EMAIL", [
-    "host" => "smtp.office365.com",
+    "host" => "smtp.office365.com", /** host referente ao Outlook */
     "post" => "587",
-    "user" => "seuemail@hotmail.com",
+    "user" => "admin@admin.com.br",
     "passwd" => "",
-    "from_name" => "Maciel Oliveira",
-    "from_email" => "destinatario@hotmail.com"
+    "from_name" => "Reset de Senha",
+    "from_email" => "admin@admin.com.br" /**  Repetir o user */
 ]); 
 
 

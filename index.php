@@ -40,14 +40,16 @@ $router->post("/{grupo}", "User:cadGrupo");
 $router->group("login");
 $router->get("/", "Login:login");
 $router->post("/", "Login:login");
+
 $router->get("/{login}", "Login:login");
 $router->post("/{auth}", "Login:auth");
 $router->get("/reset", "Login:reset");
 $router->post("/reset", "Login:reset");
-$router->get("/new_password", "Login:new_password");
-$router->post("/new_password", "Login:new_password");
-$router->get("/new_password/{id}", "Login:new_password");
-$router->post("/new_password/{id}", "Login:new_password");
+
+$router->get("/new_password", "Login:novaSenha");
+$router->post("/new_password", "Login:novaSenha");
+$router->get("/new_password/{id}", "Login:novaSenha");
+$router->post("/new_password/{id}", "Login:novaSenha");
 
 
 $router->group("sair");
@@ -62,6 +64,7 @@ $router->get("/{error}", function($data){
 
 
 $router->dispatch();
+
 if ($router->error()) {
     if ($router->error()) {
         $router->redirect("/oops/{$router->error()}");
