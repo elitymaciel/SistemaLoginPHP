@@ -1,6 +1,20 @@
 # SistemaLoginPHP
+<<<<<<< HEAD
+
+=======
+>>>>>>> dc4dddec80d5b78f65cbd9f29a59db4402fa0f61
+[![Maintainer](http://img.shields.io/badge/maintainer-@MacielOliveira-success.svg?style=flat-square)]()
+[![Source Code](http://img.shields.io/badge/source-elitymaciel/SistemaLoginPHP-red.svg?style=flat-square)](https://github.com/elitymaciel/SistemaLoginPHP)
+[![PHP Version](https://img.shields.io/badge/php-%5E7.2-blue.svg?style=flat-square)](https://www.php.net/)
+[![Creditos](https://img.shields.io/endpoint?url=https%3A%2F%2Fseosistema.com.br%2Fteste)]()
+
+<<<<<<< HEAD
 
 
+ ![Test Image 1](telainicial.png "Login Page Presentation")
+=======
+ ![Test Image 1](telainicial.png)
+>>>>>>> dc4dddec80d5b78f65cbd9f29a59db4402fa0f61
  ### Instalação / Installing
 
 A instalação e feita de forma simples com php7.2 , git e composer instalado siga os passos abaixo.
