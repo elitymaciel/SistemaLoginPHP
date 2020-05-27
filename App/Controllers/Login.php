@@ -60,8 +60,9 @@ class Login
             }
             //$_SESSION['cnpj'] = $funcionario->cnpj;
             $_SESSION['nome'] = $login->username;
+            $_SESSION['lastname'] = $login->last_name;
             $_SESSION['email'] = $login->email;
-            //$_SESSION['permissao'] = $grupo->id;
+            $_SESSION['permissao'] = $login->grupo;
             $_SESSION['avatar'] = $login->avatar;
             $_SESSION['logado'] = 1;
             $_SESSION['alert'] = '<script>

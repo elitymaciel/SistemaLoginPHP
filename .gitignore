@@ -2369,3 +2369,6 @@ vendor/almasaeed2010/adminlte/plugins/toastr/toastr.css
 vendor/almasaeed2010/adminlte/plugins/toastr/toastr.js.map
 vendor/almasaeed2010/adminlte/plugins/toastr/toastr.min.css
 vendor/almasaeed2010/adminlte/plugins/toastr/toastr.min.js
+vendor/almasaeed2010/adminlte/.github/workflows/node-install.yml
+vendor/phpmailer/phpmailer/language/phpmailer.lang-af.php
+vendor/phpmailer/phpmailer/language/phpmailer.lang-hy.php
