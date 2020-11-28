@@ -26,7 +26,7 @@ class Login
      
      public function __construct()
      {
-         $this->view = Engine::create(__DIR__ . "/../../Views/login", "php");
+         $this->view = Engine::create(__DIR__ . "/../../public/login", "php");
      }
 
      public function login(array $data): void

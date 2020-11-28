@@ -22,7 +22,7 @@ abstract class Controller
             $router = new Router(SITE["base_url"]);
             $router->redirect("login");
         }
-        $this->view = Engine::create(__DIR__ . "/../../Views/admin/", "php");
-        $this->templateError = Engine::create(__DIR__ ."/../../Views/error/", "php");
+        $this->view = Engine::create(__DIR__ . "/../../public/admin/", "php");
+        $this->templateError = Engine::create(__DIR__ ."/../../public/error/", "php");
     }
 }
